@@ -1,0 +1,35 @@
+label{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    color: rgb(161, 161, 161);
+    font-size: 16px;
+}
+form{
+    width: 400px;
+    border-radius: 9px;
+    box-shadow:  0 0 10px rgba(0,0,0,0.45);
+}
+
+input{
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 7px 5px;
+    background-color: transparent;
+    color: rgb(127, 127, 127);
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(175, 174, 174);
+    flex-direction: column;
+    background: linear-gradient(rgb(15, 30, 35),rgb(20, 32, 37));
+}
+input:focus{
+    outline:1px solid rgb(255, 5, 180);
+}
+fieldset{
+    background-color: transparent;
+    border: 0;
+}
